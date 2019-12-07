@@ -19,11 +19,11 @@ Example Zplugin invocations that'll install
 [zdharma/zsh-github-issues](https://github.com/zdharma/zsh-github-issues):
 
 ```zsh
-# Download the default profile
-zplugin pack for github-issues
+# Download the default profile. Need the `@' prefix because of the `git' ice.
+zplugin pack for @github-issues
 
 # Download the `compact-message' profile
-zplugin pack"compact-message" for github-issues
+zplugin pack"compact-message" for @github-issues
 ```
 
 ## Default Profile
