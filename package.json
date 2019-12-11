@@ -21,7 +21,7 @@
     "bugs": {
         "url": "https://github.com/zdharma/zsh-github-issues/issues"
     },
-    "version" : "1.0.0",
+    "version": "1.0.1",
     "contributors": [],
     "dependencies": {},
     "deprecated": false,
@@ -47,14 +47,14 @@
         },
         "zplugin-ices": {
             "default": {
-                "git" : "",
+                "git": "",
                 "lucid": "",
                 "on-update-of": "~/.cache/zsh-github-issues/new_titles.log",
                 "notify": "New issue: $NOTIFY_MESSAGE",
                 "atpull": "%atclone"
             },
             "compact-message": {
-                "git" : "",
+                "git": "",
                 "lucid": "",
                 "on-update-of": "~/.cache/zsh-github-issues/new_titles.log",
                 "notify": "$NOTIFY_MESSAGE",
