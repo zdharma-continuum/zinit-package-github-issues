@@ -50,13 +50,15 @@
                 "git" : "",
                 "lucid": "",
                 "on-update-of": "~/.cache/zsh-github-issues/new_titles.log",
-                "notify": "New issue: $NOTIFY_MESSAGE"
+                "notify": "New issue: $NOTIFY_MESSAGE",
+                "atpull": "%atclone"
             },
             "compact-message": {
                 "git" : "",
                 "lucid": "",
                 "on-update-of": "~/.cache/zsh-github-issues/new_titles.log",
-                "notify": "$NOTIFY_MESSAGE"
+                "notify": "$NOTIFY_MESSAGE",
+                "atpull": "%atclone"
             }
         }
     }
